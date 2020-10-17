@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root1" prefHeight="451.0" prefWidth="614.0" style="-fx-background-color: linear-gradient(#136f94 50%,#8b00ff 100%);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.cloudsimgui.ApproachController">
+   <children>
+      <Button fx:id="SelectionBtn" layoutX="122.0" layoutY="190.0" mnemonicParsing="false" onAction="#gotoSelection" prefHeight="63.0" prefWidth="371.0" text="Selection Policy" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="AllocationBtn" layoutX="122.0" layoutY="268.0" mnemonicParsing="false" onAction="#gotoAllocation" prefHeight="63.0" prefWidth="371.0" text="Allocation Policy" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="LowerThrBtn" layoutX="122.0" layoutY="350.0" mnemonicParsing="false" onAction="#gotoLowerThr" text="Dynamic Lower Threshold" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Label layoutX="135.0" layoutY="14.0" text="Proposed Migration Policy" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

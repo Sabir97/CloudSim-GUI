@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="847.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.cloudsimgui.tmigrController">
+   <children>
+      <BarChart fx:id="tmigrBarChart" prefHeight="538.0" prefWidth="847.0" title="Migration Time Bar Chart">
+        <xAxis>
+          <CategoryAxis fx:id="X" label="VMs/PMs" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="Y" label="Migration Time (m)" side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>
